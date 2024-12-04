@@ -1,0 +1,647 @@
+body {
+    background: #EDEDED;
+    background: #fff;
+    color: #000;
+}
+
+/* Navbar */
+
+.my_nav {
+    background: #202022;
+    background: linear-gradient(to bottom left,#5f75cc,#5caccf);
+    color: #fff;
+    z-index: 5;
+    padding-bottom: 50px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.my_nav .p1{
+    margin-top: -100px;
+    position: fixed;
+    background: linear-gradient(to left,#5f75cc,#5caccf);
+    background: #66bef1;
+    background: #243046;
+    background: #173b6c;
+    background: #4697d1;
+    background: #5e8ac8;
+    background: #5282c7;
+    background: #39629d;
+    background: #5caccf;
+
+    /* background: #293b5c; */
+    padding: 18px 40px;
+    transition: all 0.6s;
+    z-index: 10;
+}
+
+.my_nav .p2 {
+    padding: 20px 40px;
+}
+
+.my_nav a {
+    text-decoration: none;
+}
+
+.my_nav .c3 ul {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    float: right;
+    line-height: 10px;
+    margin-top: 13px;
+}
+
+.my_nav .c3 ul li {
+    padding-right: 10px;
+}
+
+.my_nav .c3 ul li:hover {
+    color: #24d2b1;
+    color: #0be491;
+    color: #01ffff;
+    cursor: pointer;
+}
+
+.my_nav .c3 ul li:nth-child(2) {
+    font-weight:300;
+}
+
+.my_nav a h2 {
+    color: rgb(18, 209, 114);
+    color: #24d2b1;
+    color: #01ffff;
+    font-size: 28px;
+    margin-top: 2px;
+}
+
+.my_nav .c4 {
+    margin-top: 120px;
+    padding-left: 40px;
+}
+
+.my_nav .c5 {
+    margin-top: 120px;
+}
+
+.my_nav .img_png {
+    height: 600px;
+    width: 600px;
+    background: url(../img/R.png);
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    filter: drop-shadow(10px 10px 5px rgb(73, 70, 70));   
+}
+
+.my_nav .h12 {
+    font-size: 82px;
+    line-height: 82px;
+    color: #0be491;
+    filter: drop-shadow(2px 3px 6px rgba(67, 68, 68, 0.342));
+}
+
+.my_nav .p12 {
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 10px;
+    filter: drop-shadow(2px 3px 6px rgba(67, 68, 68, 0.342));
+}
+
+.my_nav .text-slider-items {
+    display: none; 
+}
+
+.my_nav .text-slider {
+    text-decoration: underline;
+    color: #01ffff;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.my_nav .s1 {
+    background: #eef2fd;
+    border: 1px solid #4e4e4e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.my_nav .s1 #search_input {
+    background: #fff;
+    width: 94%;
+    line-height: 30px;
+    border: none;
+    padding: 2px 2px 2px 10px;
+    border: 1px solid #d4d1d1;
+    border-radius: 5px;
+}
+
+.my_nav .s1 #search {
+    color: #3f95f7;
+    position: relative;
+    float: right;
+    margin-top: -29px;
+    margin-right: 14px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.my_nav .s1 input:focus {
+    box-shadow: none;
+}
+
+.my_nav .s1_bar {
+    background: #5bf3d7;
+    border-radius: 50px;
+    border: 1px solid #4e4e4e;
+}
+
+.my_nav .s1_bar #search_input_bar {
+    background: #fff;
+    width: 92%;
+    line-height: 30px;
+    border: none;
+    padding: 2px 2px 2px 10px;
+    border-radius: 30px;
+    line-height: 35px;
+}
+
+.my_nav .s1_bar #search_input_bar::placeholder {
+    color: #363636af;
+}
+
+.my_nav .s1_bar #search_icon_bar {
+    color: #fff;
+    position: relative;
+    float: right;
+    margin-top: -30px;
+    margin-right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Modal */
+
+.my_modal .cc_modal {
+    text-align: center;
+    height: 60px;
+    background: #eaeaea;
+    color: #999;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.my_modal .cc_modal p {
+    margin: revert;
+}
+
+.my_modal .cc {
+    padding: 0px 10px;
+    margin: 17px 0px;
+}
+
+.my_modal .c5 {
+    text-align: center;
+}
+
+.my_modal .c5 p {
+    font-size: 13px;
+    color: #504c4c;
+}
+
+.my_modal .c5 a {
+    text-decoration: none;
+}
+
+.my_modal .c6 {
+    padding-bottom: 20px;
+}
+
+.my_modal .c6 input {
+    background: #1ccc88;
+    color: #fff;
+    font-weight: bold;
+}
+
+.my_modal .c6 input:hover {
+    background: #03b973;
+}
+
+.my_modal .form-control:focus {
+    border-color: #0be491;
+    box-shadow: 0 0 5px #0be491ab;
+}
+
+
+
+/* <--- Exams ---> */
+
+.exams{
+    padding: 70px 100px;
+    background: #eef1f7;
+    background: #f6f8f9;
+}
+
+.exams .heading{
+    color: #173b6c;
+    /* border-bottom: 3px solid #149ddd; */
+}
+
+.exams .heading_hr{
+    width: 100px;
+    border-top: 3px solid #149ddd;
+    /* border-radius: 3px; */
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.exams .row_1 .btn{
+    background: #1cc4a5;
+    padding: 40px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exams .row_1 .btn:hover{
+    background: #1cc4a5;
+}
+
+.exams .row_1 .btn p{
+    margin: 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.exams .row_1 .btn_cal{
+    background: #1fbbd6;
+    border: none;
+    padding: 10px;
+}
+
+.exams .row_1 .btn_cal .cal {
+    margin-right: 5px;
+}
+
+.exams .row_1 .btn1:hover{
+    background: #1db0ca;
+}
+
+.exams .row_2{
+    background: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 8px gray;
+}
+
+.exams .c1{
+    height: 700px;
+    overflow-y: scroll;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+
+/* width */
+.exams .c1::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+.exams .c1::-webkit-scrollbar-track {
+    background: #eef1f7;
+    /* box-shadow: inset 0 0 5px grey; */
+}
+   
+  /* Handle */
+.exams .c1::-webkit-scrollbar-thumb {
+    background: #919191; 
+    border-radius: 20px;
+  }
+
+.exams .c1 .btn1{
+    background: #919191;
+    border: none;
+    border-bottom: 1px solid #a1a0a0;
+    width: 100%;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.exams .c1 .active{
+    background-color: #1cc4a5;
+    border: none;
+    border-bottom: 1px solid #a1a0a0;
+}
+
+.exams .c1 .btn1:hover{
+    background-color: #1cc4a5;
+}
+
+.exams .c2{
+    height: 700px;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* width */
+.exams .c2::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+.exams .c2::-webkit-scrollbar-track {
+    background: #eef1f7;
+    /* box-shadow: inset 0 0 5px grey; */
+  }
+   
+  /* Handle */
+.exams .c2::-webkit-scrollbar-thumb {
+    background: #1cc4a5; 
+    border-radius: 20px;
+  }
+
+
+.exams a{
+    text-decoration: none;
+}
+
+.exams .c2 .btn{
+    background: #1cc4a5;
+    padding: 30px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exams .c2 .btn:hover{
+    background: #1cc4a5;
+}
+
+.exams .c2 .btn p{
+    margin: 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* <--- Footer ---> */
+
+.footer{
+    background: #1e1e1f;
+    background: #1f272c;
+    background: #273044;
+    background: linear-gradient(to bottom left,#5f75cc,#5caccf);
+    background: #243046;
+    padding: 20px;
+}
+
+/* .footer .form-control.f1{
+    border: 3px dashed #1cc4a5;
+    border-radius: 10px;
+} */
+
+/* <--- Request Question Paper ---> */
+
+.Request{    
+    padding: 30px;
+    padding-left: 170px;
+}
+
+.Request h2 {
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.Request label{
+    margin-left: 6px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.Request .submit_req{
+    background: #1cc4a5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+/* <--- Write to Us / Feedback ---> */
+
+.Feedback{    
+    padding: 30px;
+    padding-right: 170px;
+}
+
+.Feedback h2 {
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.Feedback label{
+    margin-left: 6px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.Feedback .message{
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.Feedback .submit_req{
+    background: #1cc4a5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+/* <--- Copyright ---> */
+
+.copyright {
+    padding: 20px 100px 10px 170px;
+    color: #fff;
+}
+
+.c_right {
+    font-size: 12px;
+    position: relative;
+}
+
+.social_media {
+    display: flex;
+    gap: 10px;
+}
+
+.social_media .social_icons {
+    background: #24d2b1;
+    border-radius: 50%;
+    padding: 10px 11px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social_media .social_icons.icon_fb{
+    padding: 10px 13px;
+}
+
+.social_media .social_icons:hover{
+    background-color: #1ba58c;
+}
+
+/* <--- 10th_Board.php ---> */
+
+.exams_page a{
+    text-decoration: none;
+}
+
+.exams_page .btn{
+    background: #1cc4a5;
+    padding: 30px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exams_page .btn:hover{
+    background: #1cc4a5;
+}
+
+.exams_page .btn p{
+    margin: 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.exams_page .heading{
+    color: #173b6c;
+}
+
+.exams_page .heading_hr{
+    width: 100px;
+    border-top: 3px solid #149ddd;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+/* <--- Exam info & Previous Papers ---> */
+
+.exam_info {
+    background: #155682;
+    background: #59a7f2;
+    background: #fff;
+    padding: 10px;
+}
+
+.exam_info .exam_name {
+    color: #155682;
+    font-size: 40px;
+}
+
+.exam_info a {
+    text-decoration: none;
+}
+
+.exam_info .my_btns {
+    text-align: right;
+}
+
+.exam_info .btn {
+    background: #59a7f2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.exam_info .btn:hover {
+    background: #4481bb;
+}
+
+.exam_info .info {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.exam_info .bold {
+    font-weight: bold;
+}
+
+.exam_info .eligible {
+    margin-top: -10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.exam_info .mode {
+    font-size: 18px;
+}
+
+.papers {
+    padding: 10px;
+}
+
+.papers .bold {
+    font-weight: bold;
+}
+
+.papers .paper_year {
+    font-size: 17px;
+}
+
+.papers .prev_papers {
+    font-size: 24px;
+    font-weight: bold;
+    color: #155682;
+}
+
+.papers .pp {
+    padding: 0px 30px;
+}
+
+.papers .bg_1 {
+    background: #49baee;
+    border-radius: 5px;
+    margin-left: 0px;
+    padding: 5px 10px 12px 10px;
+    margin-bottom: 8px;
+}
+
+.papers .bg_1 p {
+    margin-bottom: 10px;
+}
+
+.papers .bg_1 .btn {
+    background: #01ddb5;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.papers .bg_1 .btn:hover {
+    box-shadow: none;
+}
+
+/* <--- Media Query ---> */
